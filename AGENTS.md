@@ -12,6 +12,21 @@ pushing changes to `main` when requested.
 
 ## Agent skills
 
+### Codex studio workflow
+
+Codex is the primary environment. For client intake, research, brand identity,
+brand applications, or studio quality reviews, read
+`docs/agents/codex-studio-handbook.md` before execution.
+The main chat coordinates; delegate scoped specialist work to subagents using
+the project profiles in `.codex/agents/`. Use only relevant roles and request a
+separate quality review before presenting a deliverable for Paul's approval.
+If named profiles are unavailable in the current session, pass the matching
+profile instructions and handbook to a standard subagent explicitly.
+Paul owns client contact and creative final approval.
+For a new client assignment or delivery, read `docs/agents/project-workflow.md`.
+Create client work in a separate project directory using `scripts/new_project.py`;
+this repository holds studio tooling, not client production files.
+
 ### Issue tracker
 
 Use GitHub Issues in `XeOS1977/iGuide-Design` when publishing or reading specs,
