@@ -5,14 +5,10 @@ and digital assets, including websites and apps.
 
 ## Change workflow
 
-Use a dedicated branch and draft pull request for each change.
-Before editing files, confirm that the branch has an open pull request.
+Work directly on `main`; pull requests are optional, not required.
 Check repository status and fetch remote changes before starting; preserve user work.
-Keep changes within the pull request's scope; never push directly to `main`.
-For a new branch, use a planning-only commit to open the draft pull request
-before editing implementation files. This planning file is the sole pre-PR
-file-edit exception. Review the complete diff and run appropriate checks before
-committing and pushing changes to the pull request branch.
+Review the complete diff and run appropriate checks before committing and
+pushing changes to `main` when requested.
 
 ## Agent skills
 

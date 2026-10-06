@@ -1,5 +1,8 @@
 # Design skills setup
 
+Historical setup plan, completed through PR #1. The user subsequently removed
+the PR-first requirement; the current change workflow is defined in `AGENTS.md`.
+
 ## Approved scope
 
 - Configure the globally installed Matt Pocock engineering skills for this repo.
